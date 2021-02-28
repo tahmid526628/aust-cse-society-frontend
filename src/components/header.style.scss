@@ -1,0 +1,31 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-image: linear-gradient(to right, rgba(33, 33, 33, 1), rgba(33, 33, 33, 0.6));
+}
+
+a {
+    color: #fff;
+}
+
+.logo-container {
+    height: 100%;
+    width: 140px;
+    padding: 25px;
+}
+
+.options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+}
