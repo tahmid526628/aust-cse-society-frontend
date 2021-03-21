@@ -15,14 +15,14 @@ const Header = () => {
                     </div>
                     <div className="u-custom-menu u-nav-container">
                         <ul className="u-nav u-unstyled u-nav-1">
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="Home.html" >Home</a></li>
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="About.html" >About</a></li>
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="Contact.html" >Contact</a></li>
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="Login.html">Login</a></li>
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="Society.html" >Society</a></li>
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="Event.html" >Event</a></li>
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="Department.html" >Department</a></li>
-                            <li className="u-nav-item"><a className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" href="Transaction.html" >Transaction</a></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/" >Home</Link></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/about" >About</Link></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/contact" >Contact</Link></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/login">Login</Link></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/society" >Society</Link></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/event" >Event</Link></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/department" >Department</Link></li>
+                            <li className="u-nav-item"><Link className="u-active-grey-50 u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base" to="/transaction" >Transaction</Link></li>
                         </ul>
                     </div>
                     <div className="u-custom-menu u-nav-container-collapse">
